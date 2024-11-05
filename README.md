@@ -41,7 +41,7 @@ pip install numpy pandas seaborn matplotlib scikit-learn imbalanced-learn statsm
 - The data is heavily imbalanced, with 99.83% legitimate transactions and only 0.17% fraudulent transactions.
 - Various visualizations are used to understand the distribution of transactions and identify outliers in transaction amounts.
 
-![image](https://github.com/user-attachments/assets/0326b6e8-f90d-4987-bb65-b556a9d6b62a)  ![image](https://github.com/user-attachments/assets/b63f101f-0bf2-49b3-9d09-959a8d57cc93)
+![image](https://github.com/user-attachments/assets/0aac4a8b-6d1d-4106-9efa-67067f297450)  ![image](https://github.com/user-attachments/assets/b63f101f-0bf2-49b3-9d09-959a8d57cc93)
 
 
 
@@ -50,14 +50,17 @@ pip install numpy pandas seaborn matplotlib scikit-learn imbalanced-learn statsm
 The project utilizes the following machine learning algorithms to detect fraud:
 
 - **Logistic Regression**
+
 ![image](https://github.com/user-attachments/assets/fba06452-95af-4ec6-9a49-3f3344f4b577)
 
 
 - **Decision Tree Classifier**
+
 ![image](https://github.com/user-attachments/assets/f84a0cff-f585-482c-a90a-f5b3d38e4862)
 
   
 - **Random Forest Classifier**
+
 ![image](https://github.com/user-attachments/assets/796a1eac-bd68-41c4-805e-2f5922964fe2)
 
 Additionally, the project addresses class imbalance using the SMOTE technique (Synthetic Minority Over-sampling Technique) to improve model performance.
